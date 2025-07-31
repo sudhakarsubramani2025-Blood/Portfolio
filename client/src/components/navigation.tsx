@@ -9,7 +9,14 @@ export default function Navigation() {
 
   useEffect(() => {
     const handleScroll = () => {
-      const sections = ["home", "projects", "services", "skills", "resume", "contact"];
+      const sections = [
+        "home",
+        "projects",
+        "services",
+        "skills",
+        "resume",
+        "contact",
+      ];
       const scrollPosition = window.scrollY + 200;
 
       for (const section of sections) {
@@ -17,7 +24,7 @@ export default function Navigation() {
         if (element) {
           const offsetTop = element.offsetTop;
           const offsetBottom = offsetTop + element.offsetHeight;
-          
+
           if (scrollPosition >= offsetTop && scrollPosition < offsetBottom) {
             setActiveSection(section);
             break;
@@ -48,7 +55,7 @@ export default function Navigation() {
   ];
 
   return (
-    <motion.nav 
+    <motion.nav
       initial={{ y: -100 }}
       animate={{ y: 0 }}
       className="fixed w-full top-0 bg-white/95 backdrop-blur-sm z-50 border-b border-gray-100"
@@ -56,10 +63,10 @@ export default function Navigation() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
           <div className="flex items-center">
-            <span className="text-2xl font-bold text-dark">Sudhakar</span>
+            <span className="text-2xl font-bold text-dark">SUDHAKAR</span>
             <span className="ml-2 text-primary">•</span>
           </div>
-          
+
           <div className="hidden md:flex space-x-8">
             {navItems.map((item) => (
               <button
@@ -76,7 +83,7 @@ export default function Navigation() {
             ))}
           </div>
 
-          <Button 
+          <Button
             onClick={() => scrollToSection("resume")}
             className="hidden md:flex bg-primary text-white hover:bg-primary/90"
           >
@@ -117,7 +124,7 @@ export default function Navigation() {
                   {item.label}
                 </button>
               ))}
-              <Button 
+              <Button
                 onClick={() => scrollToSection("resume")}
                 className="w-full bg-primary text-white hover:bg-primary/90"
               >
