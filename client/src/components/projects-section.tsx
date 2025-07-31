@@ -13,7 +13,7 @@ const projects = [
     image:
       "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=600",
     problem:
-      "Users struggled with product discovery and checkout process in existing e-commerce apps.",
+      "Busy people find it hard to discover and cook instant meals easily. instAnZ makes it simple with a smart app made only for instant food.",
     process: [
       "User Research",
       "Wireframing",
@@ -22,53 +22,37 @@ const projects = [
     ],
     tools: [
       { name: "Figma", color: "blue" },
-      { name: "Notion", color: "purple" },
+      { name: "Canva", color: "purple" },
       { name: "Miro", color: "green" },
     ],
     outcome:
-      "40% increase in conversion rate and 60% reduction in cart abandonment.",
+      "instAnZ grew engagement by 45%, repeat buys by 55%, and halved search time in 3 months.",
     categoryColor: "primary",
   },
   {
     id: 2,
-    title: "FinTrack Dashboard",
-    role: "Lead UX/UI Designer",
+    title: "Unave Marunthu Website",
+    role: "UI/UX Designer",
     category: "Web App",
     image:
       "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=600",
     problem:
-      "Complex financial data visualization overwhelming users and poor information hierarchy.",
+      "Healthy traditional foods lack modern reach, while fast foods dominate. Unave Marunthu brings native South Indian foods online with trust and clarity.",
     process: [
-      "Analytics Review",
-      "Information Architecture",
+      "User Research",
+      "Design System",
       "UI Design",
-      "A/B Testing",
+      "Prototyping",
     ],
     tools: [
       { name: "Figma", color: "blue" },
-      { name: "Adobe XD", color: "red" },
-      { name: "Hotjar", color: "yellow" },
+      { name: "Adobe Illustrator", color: "red" },
+      { name: "Chatgpt", color: "yellow" },
     ],
     outcome:
-      "50% faster task completion and 35% increase in user satisfaction scores.",
+      "Unave Marunthu grew visibility by 60%, trust by 50%, and access by 70% in 3 months.",
     categoryColor: "secondary",
   },
-  // {
-  //   id: 3,
-  //   title: "MediCare Patient App",
-  //   role: "UX Researcher & Designer",
-  //   category: "Healthcare",
-  //   image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=600",
-  //   problem: "Patients struggling to manage appointments and access medical records efficiently.",
-  //   process: ["Ethnographic Study", "Journey Mapping", "Prototyping", "Clinical Testing"],
-  //   tools: [
-  //     { name: "Figma", color: "blue" },
-  //     { name: "Notion", color: "purple" },
-  //     { name: "Principle", color: "orange" }
-  //   ],
-  //   outcome: "70% reduction in appointment no-shows and 85% user satisfaction rate.",
-  //   categoryColor: "accent"
-  // }
 ];
 
 export default function ProjectsSection() {
