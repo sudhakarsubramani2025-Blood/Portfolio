@@ -191,15 +191,17 @@ export default function ResumeSection() {
                 <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent rounded-xl"></div>
                 <div className="absolute bottom-4 left-4 text-white">
                   <h4 className="font-semibold">Sudhakar</h4>
-                  <p className="text-sm opacity-90">UX Designer</p>
+                  <p className="text-sm opacity-90">UI UX Designer</p>
                 </div>
               </div>
 
               <div className="text-center">
-                <Button className="bg-primary text-white hover:bg-primary/90 px-8 py-4 font-medium">
-                  <Download className="w-4 h-4 mr-2" />
-                  Download Resume
-                </Button>
+                <a href="/RR.pdf" download>
+                  <Button className="bg-primary text-white hover:bg-primary/90 px-8 py-4 font-medium">
+                    <Download className="w-4 h-4 mr-2" />
+                    Download Resume
+                  </Button>
+                </a>
                 <p className="text-sm text-gray-500 mt-2">PDF • 1.2 MB</p>
               </div>
 
