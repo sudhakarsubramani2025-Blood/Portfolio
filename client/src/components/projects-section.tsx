@@ -35,7 +35,7 @@ const projects = [
     id: 2,
     title: "Unave Marunthu Website",
     role: "UI/UX Designer",
-    category: "Web App",
+    category: "Website",
     image: "/um.png",
     problem:
       "Healthy traditional foods lack modern reach, while fast foods dominate. Unave Marunthu brings native South Indian foods online with trust and clarity.",

@@ -17,7 +17,7 @@ const experiences = [
 const skills = [
   { name: "Figma", percentage: 100, color: "primary" },
   { name: "Wix Studio ", percentage: 90, color: "secondary" },
-  { name: "Framer", percentage: 90, color: "accent" },
+  { name: "Framer", percentage: 90, color: "secondary" },
   { name: "Miro", percentage: 100, color: "primary" },
 ];
 
